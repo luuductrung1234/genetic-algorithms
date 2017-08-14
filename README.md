@@ -1,5 +1,5 @@
 # Giới thiệu và khái quát về ý tưởng
- - là thuật toán bắt nguồn từ nghiên cứu của John Holland từ đại học Michigan vào năm 1960 nhưng đến những năm 90 thì mới bắt đầu phổ biến. Mục đính chỉnh của nó là giúp giải quyết các vấn đề mà nếu ta sử dụng những thuật toán xác định bình thường sẽ rất tốt kém
+ - là thuật toán bắt nguồn từ nghiên cứu của John Holland từ đại học Michigan vào năm 1960 nhưng đến những năm 90 thì mới bắt đầu phổ biến. Mục đích chính của nó là giúp giải quyết các vấn đề mà nếu ta sử dụng những thuật toán xác định bình thường sẽ rất tốt kém
 
 **Ví dụ**:   ta muốn tạo ra một chương trình liên tục sinh ra một chuỗi kí tự cho đến khi nào nó khớp với chuỗi kí tự cho trước. Chẳng hạn chuỗi kí tự trong thành ngữ "To be or not to be that is the question" với 39 kí tự. Và ta có một tập hợp các kí tự latin cho trước gồm 27 chữ cái từ a-z. Để có thể sinh một chuỗi kí tự gồm 39 chữ cái một cách ngẫu nhiên từ 27 kí tự cho trước sao cho khớp với thành ngữ, tỉ lệ có thể xảy ra là 1/27 ^ 39 ~ 6.655593703386783+55E. Nếu máy tính cần 1s để sinh tạo ra một chuỗi thì cần thời gian gấp tỉ tỉ lần tuổi của vũ trụ để duyệt hết tất cả trường hợp => Quá lớn
 
@@ -17,9 +17,9 @@ Theo thuật ngữ khoa học máy tính, độ phức tạp của thuật toán
  - Tóm gọn lại: Genetic algorithm tập trung vào sự tiến hoá của một nhóm các cá thể cho trước. Trong từng thế hệ,  các cá thể có biểu hiện tốt trước quá trình chọn lọc tự nhiên, sẽ hợp lại cùng nhau để tái sản sinh và chia sẻ các tính trạng di truyền của chúng (gọi là tái tổ hợp). Các thể hệ sau sẽ nhận các tổ hợp tính trạng di truyền khác nhau từ thế hệ trước và ngẫu nhiên xuất hiện các đặc tính dị biến (đột biến)
 
 # Hình thức vận hành
-ta có một vấn đề cần giải quyết, và ta sẽ áp dụng Genetic Algorithms với các bước sau:
+giả sử ta có một vấn đề cần giải quyết, và ta sẽ áp dụng Genetic Algorithms với các bước sau:
         + Tạo ra một nhóm cá thế cho trước
-        + Đánh giá từng cá thể (liệu chúng có thích hợp với sự chọn lọc, cụ thể là có thích hợp để giải quyết vấn đề không?)
+        + Đánh giá từng cá thể (liệu chúng có thích hợp với sự chọn lọc, cụ thể là có thích hợp để giải quyết vấn đề đó không?)
         + Tiến hành chọn lọc cá thể (càng thích hợp thì càng có cơ hội tồn tại)
         + Tiến hành bắt chéo(crossover) và tái sản sinh(reproduction)   (bắt chéo 2 cá thể để sản sinh ra cá thể con mới chứa tính trạng kế thừa từ cả hai cha mẹ)
         + Phát sinh đột biến (một số cá thể con mới dù đã kế thừa nhưng ngẫu nhiên xuất hiện các tính trạng lạ dị biệt)
