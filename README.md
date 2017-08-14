@@ -5,9 +5,9 @@
 
 Theo thuật ngữ khoa học máy tính, độ phức tạp của thuật toán này O(27^n). Dẫn đến sự không khả thi khi thực hiện các thuật toán xác định thông thường. Từ đó ta cần một thuật toán khác tốt hơn, hiệu quả hơn  => Genetic Algorithm ra đời, lấy cảm hứng từ học thuyết tiến hoá của Darwin
     
-      + Đứng trên góc nhìn của thuật toán xác định thông thường, cách thức nó sinh ra một giải pháp (trong ví dụ trên là sinh ra một chuỗi kí tự) là tiến hành tuần tự tuyến tính, và hầu như không hề rút kinh nghiệm từ lần này  qua lần khác, cứ thể chạy một cách máy móc
+  - Đứng trên góc nhìn của thuật toán xác định thông thường, cách thức nó sinh ra một giải pháp (trong ví dụ trên là sinh ra một chuỗi kí tự) là tiến hành tuần tự tuyến tính, và hầu như không hề rút kinh nghiệm từ lần này  qua lần khác, cứ thể chạy một cách máy móc
     
-      + Đứng trên góc nhìn của thuật toán Genetic, cách thức nó sinh  ra một giải pháp dự trên học thuyết Darwin, khi mà các giải pháp liên tục được sinh ra, quá trình chọn lọc xuất hiện và tìm ra những giải pháp tốt nhất, sau đó những giải pháp tiếp theo sẽ dựa trên (hay nói cách khác là kế thừa) những thành quả đã đạt được trong những lần thực thi trước đó, tiếp tục biến đổi không ngừng cho đến khi tìm ra giải pháp thoả đáng nhất
+  - Đứng trên góc nhìn của thuật toán Genetic, cách thức nó sinh  ra một giải pháp dự trên học thuyết Darwin, khi mà các giải pháp liên tục được sinh ra, quá trình chọn lọc xuất hiện và tìm ra những giải pháp tốt nhất, sau đó những giải pháp tiếp theo sẽ dựa trên (hay nói cách khác là kế thừa) những thành quả đã đạt được trong những lần thực thi trước đó, tiếp tục biến đổi không ngừng cho đến khi tìm ra giải pháp thoả đáng nhất
 
  - So về độ phức tạp cài đặt, Generic Algorithm đòi hỏi nhiều tính toán, kiến thức nền tảng về học thuyết di truyền trong sinh học,.... Nhưng so về độ phức tạp thuật toán, ta thấy nó hoạt động hiệu quả hơn các thuật toán xác định thông thường gấp tỉ tỉ lần
 
@@ -26,18 +26,18 @@ giả sử ta có một vấn đề cần giải quyết, và ta sẽ áp dụng
 
 # Tham khảo
  -  Tài liệu
-        ![tech.io](https://tech.io/playgrounds/334/genetic-algorithms/history), 
-        ![www.obitko.com](http://www.obitko.com/tutorials/genetic-algorithms/), 
-        ![www.schatten.info](http://www.schatten.info/resources_ga.html), 
-        ![rednuht.org](http://rednuht.org/genetic_cars_2/)
+        [tech.io](https://tech.io/playgrounds/334/genetic-algorithms/history), 
+        [www.obitko.com](http://www.obitko.com/tutorials/genetic-algorithms/), 
+        [www.schatten.info](http://www.schatten.info/resources_ga.html), 
+        [rednuht.org](http://rednuht.org/genetic_cars_2/)
  -  Video
-        ![youtube-the coding train](https://www.youtube.com/watch?v=9zfeTw-uFCw&list=PLRqwX-V7Uu6bJM3VgzjNV5YxVxUwzALHV)
+        [youtube-the coding train](https://www.youtube.com/watch?v=9zfeTw-uFCw&list=PLRqwX-V7Uu6bJM3VgzjNV5YxVxUwzALHV)
  - Thực hành
-        ![stackexchange-lab rat race an exercise](https://codegolf.stackexchange.com/questions/44707/lab-rat-race-an-exercise-in-genetic-algorithms), 
-        ![codinggame-coder strike back](https://www.codingame.com/multiplayer/bot-programming/coders-strike-back), 
-        ![codinggame-mars lander](https://www.codingame.com/training/easy/mars-lander-episode-1), 
-        ![codinggame-fantastic bits](https://www.codingame.com/multiplayer/bot-programming/fantastic-bits), 
-        ![codinggame-game of drones](https://www.codingame.com/multiplayer/bot-programming/game-of-drones)
+        [stackexchange-lab rat race an exercise](https://codegolf.stackexchange.com/questions/44707/lab-rat-race-an-exercise-in-genetic-algorithms), 
+        [codinggame-coder strike back](https://www.codingame.com/multiplayer/bot-programming/coders-strike-back), 
+        [codinggame-mars lander](https://www.codingame.com/training/easy/mars-lander-episode-1), 
+        [codinggame-fantastic bits](https://www.codingame.com/multiplayer/bot-programming/fantastic-bits), 
+        [codinggame-game of drones](https://www.codingame.com/multiplayer/bot-programming/game-of-drones)
 
 
 # Mã nguồn mẫu
