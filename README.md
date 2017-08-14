@@ -41,4 +41,4 @@ ta có một vấn đề cần giải quyết, và ta sẽ áp dụng Genetic Al
 
 
 # Mã nguồn mẫu
- - sẽ được cập nhật sớm nhất
+ - cập nhật sau
